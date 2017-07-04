@@ -6,3 +6,5 @@ another_field: hey yo come get this field
 ---
 
 Here is some body copy.
+
+{{ page.some_section }}
