@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="generator" content="Siteleaf, http://siteleaf.com">
+
+    {% seo title=false %}
+    <title>{{ page.title }}{% if page.url != '/' %} - {{ site.title }}{% endif %}</title>
+    <link rel="SHORTCUT ICON" href="/assets/images/favicon.ico">
+  </head>
+  <body>
+
+    <div class="wrap">
+      {% include header.html %}
+      <main class="main">
+        {{ content }}
+      </main>
+    </div>
+    {% include footer.html %}
+
+    <script src="//www.siteleaf.com/scripts/all.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
