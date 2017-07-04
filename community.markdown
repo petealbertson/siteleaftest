@@ -5,3 +5,4 @@ some_section: this is that some section
 another_field: hey yo come get this field
 ---
 
+Here is some body copy.
