@@ -7,7 +7,6 @@ does_this_work: let's try
 key_value:
   foo: bar
   herp: derp
-layout: default
 ---
 
 Here is some body copy. Here is even more.
